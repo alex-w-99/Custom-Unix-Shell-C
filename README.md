@@ -30,7 +30,7 @@ A custom Unix shell program written in C. Supports Unix `/bin/` commands, variou
 
 ## Screenshots
 
-<img src="https://github.com/alex-w-99/Custom-Unix-Shell-C/blob/main/shell_screenshot.png" width="400"/>
+<img src="https://github.com/alex-w-99/Custom-Unix-Shell-C/blob/main/shell_screenshot.png" width="500"/>
 
 ## Acknowledgements
 
