@@ -14,7 +14,7 @@ A custom Unix shell program written in C. Supports Unix `/bin/` commands, variou
   - Background Processes: Allows a process to run in the background so that the shell can immediately get new user input; e.g., `sleep 30 &`.  
 - Limitations of This Project:
   - Use of built-in commands, pipes, output redirection, and background processes in conjunction is *not* supported. 
-  - Sending a SIGINT (^C) will inturrupt the running child process (e.g., `sleep 30`), *not* the parent process (i.e., the shell program).
+  - Sending a `SIGINT` (^C) will inturrupt the running child process (e.g., `sleep 30`), *not* the parent process (i.e., the shell program).
 
 ## Areas for Future Improvement
 
@@ -26,7 +26,7 @@ A custom Unix shell program written in C. Supports Unix `/bin/` commands, variou
 - [ ] Color-code certain texts printed to terminal (e.g., `ls` prints folders in blue text).
 - [ ] Support multiple pipes; e.g., `ls -al | cat | wc`.
 - [ ] Support interaction between built-in commands, pipes, output redirection, and background processes; e.g., `help | wc`.
-- [ ] Modify the signal handler such that the global variable int "c" is no longer needed (the varialbe c is currently used to prevent an infinite loop when SIGINT is sent immediately after launching shell).  
+- [ ] Modify the signal handler such that the global variable int "c" is no longer needed (the varialbe c is currently used to prevent an infinite loop when `SIGINT` is sent immediately after launching shell).  
 
 ## Screenshots
 
@@ -34,8 +34,8 @@ A custom Unix shell program written in C. Supports Unix `/bin/` commands, variou
 
 ## Acknowledgements
 
-- Professor Gene Cooperman 
-- Professor Mike Shah
+- Professor Gene Cooperman, my Computer Systems professor,
+- Professor Mike Shah, my introduction to computer systems and algorithms professor. 
 
 ## Contact Information
 
