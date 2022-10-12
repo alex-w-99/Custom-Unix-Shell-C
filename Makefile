@@ -2,7 +2,7 @@
 
 FILE=shell.c
 CC=gcc
-CFLAGS=-g -O0
+CFLAGS=-std=gnu17 -g -O0
 
 default: run
 
