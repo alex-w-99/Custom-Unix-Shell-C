@@ -1,6 +1,6 @@
 # Custom Unix Shell in C
 
-A custom Unix shell program written in C. Supports Unix `/bin/` commands, various built-in commands (see below), and other features such as piping, output redirection, and background processes. Involves concepts such as forking, piping, signal handling, and text parsing in C, among other concepts. 
+A custom Unix shell program written in C. Supports Unix `/bin/` commands, various built-in commands (see below), and other features such as piping, output redirection, and background processes. Involves concepts such as forking, piping, signal handling, and text parsing in C, among other concepts. Tested on Ubuntu 20.04.1.
 
 ## Implementation Details
 
