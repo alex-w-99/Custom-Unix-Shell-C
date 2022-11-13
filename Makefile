@@ -1,6 +1,6 @@
 # First target is default target, just type "make"
 
-FILE=shell.c
+FILE=main.c
 CC=gcc
 CFLAGS=-std=gnu17 -g -O0
 
@@ -11,8 +11,8 @@ all: run
 run: myshell
         ./myshell
 
-myshell: ${FILE}
-        ${CC} ${CFLAGS} -o myshell ${FILE}
+myshell: shell.h shell.c ${FILE}
+        ${CC} ${CFLAGS} shell.c ${FILE} -o myshell
 
 build: myshell
         make $<
