@@ -24,7 +24,7 @@ Tested on Ubuntu 20.04.1, compiled with `gcc -std=gnu17 ...` (used in Makefile).
   - [ ] Make Output Redirection (>) logic a case of a normal forked command (Section 5.2; see shell.c). 
   - [ ] Make Background Process (&) logic as a case of a pipe command's second child process (Section 5.3; see shell.c).
 - [ ] Modify logic of running a background process such that the parent process therein eliminates the possibility of a zombie child. 
-- [ ] Decompose shell.c into various C files and header files. 
+- [x] Decompose shell.c into various .c/.h files. 
 - [ ] Color-code certain texts printed to terminal (e.g., `ls` prints folders in blue text).
 - [ ] Support multiple pipes; e.g., `ls -al | cat | wc`.
 - [ ] Support interaction between built-in commands, pipes, output redirection, and background processes; e.g., `help | wc`.
