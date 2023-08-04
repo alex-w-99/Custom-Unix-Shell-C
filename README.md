@@ -42,4 +42,4 @@ Tested on Ubuntu 20.04.1, compiled with `gcc -std=gnu17 ...` (used in Makefile).
 ## Contact Information
 
 - Alexander Wilcox
-- Email: alexander.w.wilcox@gmail.com
+- Email: alexander.w.wilcox [at] gmail.com
